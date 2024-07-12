@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+.logo {
+  width: 300px;
+  height: 300px;
+}
+.heading {
+  font-family: "Playwrite CL", cursive;
+  font-size: 30px;
+  font-weight: 500;
+  margin : 0px 0px;
+  margin-bottom: 20px;
+}
+.desc{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px 0px;
+    margin-bottom: 20px;
+    color: rgb(103, 103, 103);
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border: 2px ;
+    border-radius: 10px 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    background: #f4eeee;
+    box-shadow: 0px 10px 10px rgba(81, 73, 75, 0.27);
+}
+.search{
+    
+    width: 50px;
+    height: 45px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.word{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: 0px;
+    margin-left: 10px;
+    background: #f4eeee;
+    
+}
+
+.save{
+    width: 55px;
+    height: 45px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    border: 2px;
+    border-radius: 10px 10px;
+    background: #f4eeee;
+}
